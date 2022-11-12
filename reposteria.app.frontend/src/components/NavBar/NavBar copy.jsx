@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "../IndexApp.css";
 const NavBar = () => {
   //Creacion del array que contiene los datos de los navItems
   const navItems = [
@@ -10,39 +10,20 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div className="container-fluid">
-          <ul className="navbar-nav">
+      <nav className="barra">
+        <div className="">
+          <ul className="">
             {/* usamos el metodo map en el array navItems para renderizar la barra de navegacion */}
             { navItems.map( ( {ruta, icono, texto} ) => {
               return (
-                <li className="nav-item">
-                  <Link className="nav-link" to={ ruta }>
+                <li className="">
+                  <Link className="" to={ ruta }>
                     <i className={ icono }></i>
                     { texto }
                   </Link>
                 </li>
               );
-            }) }
-
-            {/* <li className="nav-item">
-              <Link className="nav-link" to={ '/' } >
-                <i className="bi bi-house"></i>
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to='/contador'>
-              <i className="bi bi-calculator"></i>
-                Contador
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to={'/saludo'}>
-              <i className="bi bi-hand-thumbs-up"></i>
-                Saludo
-              </Link>
-            </li> */}
+            }) }            
           </ul>
         </div>
       </nav>

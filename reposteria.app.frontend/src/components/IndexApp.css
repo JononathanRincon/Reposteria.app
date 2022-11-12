@@ -33,6 +33,7 @@ main {
 }
 .barra{
     background-color: var(--colorFoor);
+    color: #000;
 }
 .card-register {
   padding-top: 50px;
@@ -44,6 +45,9 @@ main {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(189, 191, 240),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
+.texto-nav{
+  color: var(--colorFive);
+}
 img {
   margin: 0;
   padding: 0;
@@ -54,3 +58,4 @@ img {
   max-height: 100%;
   object-fit: fill;
 }
+

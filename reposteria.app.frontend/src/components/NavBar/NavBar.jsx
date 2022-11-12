@@ -16,15 +16,15 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-sm barra">
         <div className="container-fluid">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav texto-nav">
             {/* usamos el metodo map en el array navItems para renderizar la barra de navegacion */}
             <NavItems items = { navItemsLeft } />
           </ul>
         </div>
         <div className="container-fluid" style={{ justifyContent: 'end' }}>
-          <ul className="navbar-nav">
+          <ul className="navbar-nav texto-nav">
             <NavItems items = { navItemsRight } />
           </ul>
         </div>

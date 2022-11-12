@@ -1,17 +1,12 @@
-import background from "./image/Presentación1.png";
+import background from "./image/Fondo.png";
 
 const Home = () => {
     return(
         <>
-            <div style={
-                { 
-                    backgroundImage: `url(${background})`,
-                    backgroundRepeat: 'no-repeat',
-                    width:'100%',
-                    height:'100%'
-                }
-            }>dfdsf
+            <div>
+                <img src={background} alt="fondo" />
             </div>
+            
             
         </>
     )
