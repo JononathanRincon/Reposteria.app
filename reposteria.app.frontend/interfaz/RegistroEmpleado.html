@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>proyecto 8 - Reposteria DomiRepost</title>
+  <link rel="stylesheet" href="style/IndexApp.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="Derecha">
+        <div class="logo">
+          <img src="img/logoPagina.jpg" alt="logo" />          
+        </div>
+        <ul>
+            <li><a href="Clientes.html">Home</a></li>
+            <li><a href="Empleados.html">Pasteles</a></li>
+            <li><a href="Pedidos.html">Cupcakes</a></li>
+            <li><a href="Pagos.html">Postres</a></li>
+          </ul>
+      </div>
+      <div class="izquierda">
+        <ul>          
+          <li><a href="#">
+            <div id="FotoPerfil">
+                <img src="./img/perfil.png" alt="">
+            </div>
+            Nombre de la cuenta o el rol</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <form action="" method="post">
+    <select name="Rol" id="Rol">
+        <option value="2">Chet</option>
+        <option value="3">Ayudante de chet</option>
+        <option value="4">Mensajero</option>
+    </select>
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+    <label for="Nombre">Apellido</label>
+    <input type="text" name="Apellido" id="Apellido" placeholder="Apellido">
+    <label for="Nombre">Direccion</label>
+    <input type="text" name="Direccion" id="Direccion" placeholder="Direccion">
+    <label for="Nombre">Telefono</label>
+    <input type="text" name="Telefono" id="Telefono" placeholder="Telefono">
+    <label for="Nombre">Correo</label>
+    <input type="email" name="Correo" id="Correo" placeholder="Correo">
+    <label for="Nombre">Contraseña</label>
+    <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña">
+    <input type="submit" value="Registrarse">
+</form>
+</body>
