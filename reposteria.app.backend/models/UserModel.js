@@ -1,6 +1,6 @@
 //para crear un modelo, necesitas una const tipo mongoose
 const mongoose = require('mongoose')
-const { Schema } = mongoose
+const { Schema } = mongoose 
 
 //definicion del modelo
 let UserSchema = new Schema( {
@@ -10,7 +10,7 @@ let UserSchema = new Schema( {
     password: String,
     rol: { 
         type: Number, 
-        default: 2 
+        default: 1 
     },
     creationDate: { 
         type: Date, 
