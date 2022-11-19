@@ -1,21 +1,42 @@
-
 :root {
   --ColorPrimary: #592202;
-  --ColorSecondary:#69392b;
-  --ColorTercery:  #a36b4f;
-  --colorFoor: #a6600a; 
-  --colorFive:#efefef;
+  --ColorSecondary: #69392b;
+  --ColorTercery: #a36b4f;
+  --colorFoor: #a6600a;
+  --colorFive: #efefef;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   /* font-size: 25px; */
   background-color: rgb(248, 245, 245);
-  color:#592202;
+  color: #592202;
   text-align: center;
 }
 
+header {
+  margin: 0;
+  padding: 0%;
+}
+
+main {
+  margin: 0%;
+  padding: 0%;
+}
+
+.fondoImagen {
+  background-image: url(../img/Fondo.png);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+
+}
+
 .saludo:hover {
-  color:var(--ColorTercery);
+  color: var(--ColorTercery);
 }
 
 button {
@@ -32,9 +53,11 @@ main {
   padding-top: 0;
   margin: 0;
 }
-.barra{
-    background-color: var(--colorFoor);
+
+.barra {
+  background-color: var(--colorFoor);
 }
+
 .card-register {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -45,20 +68,13 @@ main {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(189, 191, 240),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
-img {
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: fill;
-}
-#Titulo{
+
+
+#Titulo {
   color: var(--ColorPrimary);
   font-size: 40px;
 }
+
 /* Encabezado pagina principal */
 ul {
   list-style-type: none;
@@ -85,5 +101,39 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: var(--ColorPrimary);
+}
+
+.container-fluid .row {
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+
+.casilla {
+  border-radius: 1px;
+  border-color: #592202;
+  border-style: solid;
+  height: 300px;
+  width: auto;
+}
+
+.casilla a img {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.casilla a {
+  text-align: center;
+  text-decoration: none;
+  color: #efefef;
+}
+footer{
+  background-color:var(--ColorPrimary);
+}
+.logos a img{
+  height: 30px;
 }
