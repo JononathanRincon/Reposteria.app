@@ -1,41 +1,83 @@
-<div id="Titulo">
-    <h1>Carrito</h1>
-    <img src="./img/iconocarro.png" alt="">
-</div>
-<div id="hr">
-    <hr>
-</div>
-<div id="models2">
-    <div id="Productos">
-        <img src="./img/paster1.jpg" alt="">
-        <div id="Tex">
-            <p><strong> Nombre: </strong> </p>
-            <p><strong> Valor Und: </strong> </p>
-            <p><strong> SubTotal: </strong> </p>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>proyecto 8 - Reposteria DomiRepost</title>
+    <link rel="stylesheet" href="style/IndexApp.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Enlace bootstrap 5.2.2 -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+<div class="container-fluid">
+
+
+    <div class="Titulo">
+        <h1><strong>Carrito</strong></h1>
+        <div class="LogoCarrito">
+            <img src="./img/iconocarro.png" alt="">
         </div>
-        <div id="Contador">
+    </div>
+    <div id="hr">
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/paster1.jpg" alt="" width="130px" height="140px">
+                </div>
+                <div class="col-5">
+                    <p><strong> Nombre: </strong> </p>
+                    <p><strong> Valor Und: </strong> </p>
+                    <p><strong> SubTotal: </strong> </p>
+                </div>
+                <div class="col-3">
+                    <div class="contador">
+                        <form action="" method="post">
+                            <button type="submit">-</button>
+                            <input type="number" name="Numero" id="Numero" >
+                            <button  type="submit">+</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div id="hr">
+                <hr>
+            </div>
+
+        </div>
+        <div class="col-4">
             <form action="" method="post">
-                <button type="submit">-</button>
-                <input type="number" name="Numero" id="Numero">
-                <button type="submit">+</button>
+                <h4>Resumen Compra</h4>
+                <p><strong>Total: </strong> $ </p>
+                <p><Strong>Metodo Pago:</Strong></p>
+                <select name="MetodoPago" id="MetodoPago">
+                    <option value="ContraEntrega"> Contra Entrega</option>
+                    <option value="TarjetaCredito"> TarjetaCredito</option>
+                    <option value="Paypal">Paypal</option>
+                </select>
+                <input type="submit" value="Realizar el pago">
             </form>
-
         </div>
-        <div id="hr">
-            <hr>
-        </div>
+    </div>
 
-    </div>
-    <div id="ResumenCompra">
-        <form action="" method="post">
-            <p><strong>Total: </strong> $ </p>
-            <p><Strong>Metodo Pago:</Strong></p>
-            <select name="MetodoPago" id="MetodoPago">
-                <option value="ContraEntrega"> Contra Entrega</option>
-                <option value="TarjetaCredito"> TarjetaCredito</option>
-                <option value="Paypal">Paypal</option>
-            </select>
-            <input type="submit" value="Realizar el pago">
-        </form>
-    </div>
 </div>
