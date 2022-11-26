@@ -1,4 +1,8 @@
 import React from "react";
+import Postre3 from "./img/postre3.jpg";
+import Cupkaes from "./img/cup1.jpg";
+import Cupkaes2 from "./img/Cupkaesvainilla.jpg"
+import Cupkaes3 from "./img/cup3.jpg"
 
 const Productos = () => {
   return (
@@ -101,7 +105,7 @@ const Productos = () => {
             <div className="card">
               <a href="DescripcionPasteles.html">
                 <img
-                  src="../../img/cup1.jpg" alt=""  className="d-block"
+                  src= {Cupkaes} alt=""  className="d-block"
                 />
               </a>
               <div className="NombreProducto">
@@ -123,7 +127,7 @@ const Productos = () => {
           <div className="col-md-6 mb-3">
             <div className="card">
               <a href="DescripcionPasteles.html">
-                <img src="img/Cupkaes vainilla.jpg" alt="" />
+                <img src={Cupkaes2} alt="" />
               </a>
               <div className="NombreProducto">
                 <h2>Cupcakes de Vainilla</h2>
@@ -144,7 +148,7 @@ const Productos = () => {
           <div className="col-md-6 mb-3">
             <div className="card">
               <a href="DescripcionPasteles.html">
-                <img src="img/CupkaesFrutosRojos.jpg" alt="" className="d-block" />
+                <img src={Cupkaes3} alt="" className="d-block" />
               </a>
               <div className="NombreProducto">
                 <h2>Cupkaes Frutos Rojos</h2>
@@ -224,7 +228,7 @@ const Productos = () => {
           <div className="col-md-6 mb-3">
             <div className="card">
               <a href="DescripcionPasteles.html">
-                <img src="img/CupkaesFrutosRojos.jpg" alt="" className="d-block" />
+                <img src= {Postre3} alt="" className="d-block" />
               </a>
               <div className="NombreProducto">
                 <h2>Selva Negra</h2>
