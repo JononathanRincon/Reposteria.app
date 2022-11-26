@@ -1,0 +1,241 @@
+:root {
+  --ColorPrimary: #592202;
+  --ColorSecondary:#69392b;
+  --ColorTercery:  #e5b49b;
+  --colorFoor: #a6600a; 
+  --colorFive:#efefef;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 25px; */
+  background-color: rgb(248, 245, 245);
+  
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+button {
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+}
+
+i {
+  padding-right: 5px;
+}
+
+
+.barra {
+  background-color: var(--colorFoor);
+}
+
+#Titulo {
+  color: var(--ColorPrimary);
+  font-size: 40px;
+  display: inline-block;
+  margin: 0;
+  justify-content:center;
+    align-items:center;
+    width:100%;
+    gap:5px;
+}
+.izquierda{
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.derecha{
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+header nav div ul {
+  padding: 0;
+  margin-bottom: 0px;
+}
+#Fondo {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--colorFoor)
+}
+#container{
+  width: 1200px;
+  height: auto;   
+  margin: 20px auto;  
+}
+.Titulo {
+  display: inline-block;
+  margin: 0;
+  justify-content:center;
+    align-items:center;
+    width:100%;
+    gap:5px;
+}
+h1{
+  display: inline;
+  
+}
+.LogoCarrito img{
+  height: 60px;
+  width: 60px;
+  vertical-align: text-bottom;
+  display: inline;
+}
+.LogoCarrito{
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+hr{
+  height: 2px;
+  background-color: var(--ColorSecondary);
+  width: 90%;
+}
+.col-5 p{
+  text-align: left;
+}
+.col-3 .contador form input[type="number"]{
+  width: 50px;
+  border-color: var(--ColorPrimary);
+
+}
+#hr{
+  background: var(--ColorPrimary);
+}
+.col-3 .contador form button{
+  width: 20px;
+  outline:none;
+  outline-style: none;
+  background: var(--ColorTercery);
+  border-radius: 10px;  
+  border-color: var(--ColorTercery);
+}
+.col-4 form{
+  box-shadow: inset 0 -3em 3em
+   rgba(143, 142, 142, 0.1), 0 0 0 2px 
+   rgb(255, 255, 255),
+    0.3em 0.3em 1em
+     rgba(0, 0, 0, 0.3);
+}
+.col-4 form{
+  text-align: left;
+}
+.col-4 form select{
+  width: 100%;
+}
+.col-4 form input[type="submit"]{
+  margin-top: 20px;
+  margin-left: 17.5%;
+  margin-bottom: 25px;
+  background: var(--colorFoor);
+  color: var(--colorFive);
+  padding: 5% 30px;
+  border-color: #a6600a;
+  border-radius:10%;
+}
+.fondoImagen {
+  background-image: url(../img/Fondo.png);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+
+}
+
+
+i {
+  padding-right: 5px;
+}
+
+
+.barra {
+  background-color: var(--colorFoor);
+}
+
+#Titulo {
+  color: var(--ColorPrimary);
+  font-size: 40px;
+}
+.izquierda{
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.derecha{
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+header nav div ul {
+  padding: 0;
+  margin-bottom: 0px;
+}
+.derecha li a img{
+  height: 30px;
+}
+/* Encabezado pagina principal */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--colorFoor)
+}
+li{
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: var(--ColorTercery);
+  color: var(--ColorPrimary);
+  font-weight: bold;
+}
+
+.active {
+  background-color: var(--ColorPrimary);
+}
+
+.espacio .espacio2 {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  margin: 0px;
+}
+
+.casilla {
+  border-radius: 1px;
+  border-color: #592202;
+  border-style: solid;
+  height: 300px;
+  width: auto;
+}
+
+.casilla a img {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.casilla a {
+  text-align: center;
+  text-decoration: none;
+  color: #efefef;
+}
+footer{
+  background-color:var(--ColorPrimary);
+}
+.logos a img{
+  height: 30px;
+}

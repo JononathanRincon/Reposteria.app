@@ -5,11 +5,12 @@ const NavBar = () => {
   //Creacion del array que contiene los datos de los navItems
   const navItemsLeft = [
     { ruta: "/", icono: "bi bi-house", texto: "Home" },
-    { ruta: "/contador", icono: "bi bi-calculator", texto: "Contador" },
-    { ruta: "/saludo", icono: "bi bi-hand-thumbs-up", texto: "Saludo" },
+    { ruta: "/productos", icono: "bi bi-clipboard2-check", texto: "Productos" },
+    { ruta: "/Conózcanos", icono: "bi bi-bag-heart", texto: "Conózcanos" }, 
   ];
 
   const navItemsRight = [
+    {ruta: "/carrito",icono: "bi bi-cart-check", texto:"Carrito"},
     {ruta: "/register", icono: "bi bi-box-arrow-in-right", texto: "Register"},
     {ruta: "/login", icono: "bi bi-person", texto: "Login"}
   ]
@@ -18,6 +19,7 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-sm barra">
         <div className="container-fluid">
+          DomiRepost
           <ul className="navbar-nav texto-nav">
             {/* usamos el metodo map en el array navItems para renderizar la barra de navegacion */}
             <NavItems items = { navItemsLeft } />

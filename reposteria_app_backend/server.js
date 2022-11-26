@@ -18,7 +18,7 @@ app.use( express.json() )
 const router = express.Router();
 
 //Ruta de prueba
-router.get("/", ( req , res ) => { 
+router.get("/api/v1", ( req , res ) => { 
     res.send( '<h1>Hello World!!!! My First API Rest</h1>' )
 })
 

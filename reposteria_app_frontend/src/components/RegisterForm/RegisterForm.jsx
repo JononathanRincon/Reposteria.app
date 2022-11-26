@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import InputRegister from "./InputRegister";
 
+
 const RegisterForm = () => {
   //necesitamos un useState tipo objeto que tenga las mismas propiedades que los name de los inputs
   const [inputs, setInputs] = useState({
@@ -11,6 +12,7 @@ const RegisterForm = () => {
     password: "",
   });
 
+  
   //funcion manejadora para controlar los valores de los inputs
   const handleInputsForm = (e) => {
     setInputs({ ...inputs, [e.target.name]: e.target.value });
