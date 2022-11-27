@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>proyecto 8 - Reposteria DomiRepost</title>
+  <link rel="stylesheet" href="style/IndexApp.css" />
+</head>
+<div id="Titulo">
+    <h2>Carrito</h2>
+    <img src="./img/iconocarro.png" alt="30px">
+</div>
+<div id="hr">
+    <hr>
+</div>
+<div id="models2">
+    <div id="Productos">
+        <img src="./img/paster1.jpg" alt="">
+        <div id="Tex">
+            <p><strong> Nombre: </strong> </p>
+            <p><strong> Valor Und: </strong> </p>
+            <p><strong> SubTotal: </strong> </p>
+        </div>
+        <div id="Contador">
+            <form action="" method="post">
+                <button type="submit">-</button>
+                <input type="number" name="Numero" id="Numero">
+                <button type="submit">+</button>
+            </form>
+
+        </div>
+        <div id="hr">
+            <hr>
+        </div>
+
+    </div>
+    <div id="ResumenCompra">
+        <form action="" method="post">
+            <p><strong>Total: </strong> $ </p>
+            <p><Strong>Metodo Pago:</Strong></p>
+            <select name="MetodoPago" id="MetodoPago">
+                <option value="ContraEntrega"> Contra Entrega</option>
+                <option value="TarjetaCredito"> TarjetaCredito</option>
+                <option value="Paypal">Paypal</option>
+            </select>
+            <input type="submit" value="Realizar el pago">
+        </form>
+    </div>
+</div>
